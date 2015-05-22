@@ -1,0 +1,104 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "en_US.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "..\resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "en_US.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""..\\resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#include ""..\\Version.h""\r\n"
+    "#include ""..\\res\\Install.rc2""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "About Install(&A)..."
+    IDS_NOTDIR              "The directory can not be created, Please check the installation filelist, and install again!"
+    IDS_MB_LANGUAGEINFO     "Language Setup"
+    IDS_OK                  "OK"
+    IDS_COPYRIGHT           "Copyright (C) 1999-2007 SuperMap GIS Technologies, Inc."
+    IDS_ABOUTBOX_CAPTION    "About SuperMap FDO Provider for SDB/SDX+ 1.0"
+    IDS_LICENSE             "Instructions:\r\n\r\n1 If you will install this software,it means that you have \r\n  accepted the license of the SuperMap software.\r\n\r\n2 This software is only used for internal testing.You shall \r\n  take the consequences of the data loss.\r\n\r\n3 Before installation,Be sure Map3D 2008 or Civil3D 2008 have\r\n  been installed in your computer.If not,pelease install anyone\r\n  of the two.\r\n\r\n4 If some problems are encountered during the course of the trial\r\n  , welcome to contact the Application R&D Center of SuperMap GIS\r\n  Technologies Inc. Tel: +86-10-82938420-8500 \r\n\r\n5 Have a good trial! :)"
+    IDS_CAPTION             "SuperMap FDO Provider for SDB/SDX+ 1.0 (Alpha Version)"
+    IDS_STATIC_PATH         "Setup Path:"
+    IDS_STATIC_OPTION       "Install Option"
+    IDS_INSTALL             "Install"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UNINASTALL          "Uninstall"
+    IDS_CANCEL              "Cancel"
+    IDS_INSTALL_TITLE       "Information"
+    IDS_INSTALL_INFO        "Installed before you close down the SuperMap FDO Provider procedure to avoid NOT overlaying the installation files!"
+    IDS_NOT_FILELIST        "The installation filelist can not be opened!"
+    IDS_COPYING             "Copying "
+    IDS_NO_COPYFILE         "Error : "
+    IDS_SHOW_CONFIG         "The file named Providers.xml is in configuration ..."
+    IDS_SHOW_INSTALL_DONE   "SuperMap FDO Provider have been installed!"
+    IDS_PROCESS_ERROR       "Unable to run regsvr32.exe process."
+    IDS_SHOW_NOT_FOUND_PATH "The installation directory is not be found."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "..\version.h"
+#include "..\res\Install.rc2"
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

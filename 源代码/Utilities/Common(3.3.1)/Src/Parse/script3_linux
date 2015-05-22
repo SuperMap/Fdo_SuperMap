@@ -1,0 +1,60 @@
+##
+## Copyright (C) 2004-2006  Autodesk, Inc.
+## 
+## This library is free software; you can redistribute it and/or
+## modify it under the terms of version 2.1 of the GNU Lesser
+## General Public License as published by the Free Software Foundation.
+## 
+## This library is distributed in the hope that it will be useful,
+## but WITHOUT ANY WARRANTY; without even the implied warranty of
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+## Lesser General Public License for more details.
+## 
+## You should have received a copy of the GNU Lesser General Public
+## License along with this library; if not, write to the Free Software
+## Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+##
+
+s/y.tab.c/yyConstraint.cpp/g
+/^# *line/s/\\/\\\\/g
+/^# *line/b
+s/yy/fdo_constraint_yy/g
+s/YY/FDO_CONSTRAINT_YY/g
+s/fdo_constraint_yyparse (FDO_CONSTRAINT_YYPARSE_PARAM_ARG)/fdo_constraint_yyparse(FdoCommonParse* pParse)/g
+s/yylex()/yylex(pParse)/
+/int fdo_constraint_yydebug/D
+/int fdo_constraint_yynerrs/D
+/int fdo_constraint_yyerrflag/D
+/int fdo_constraint_yychar/D
+/^short \*fdo_constraint_yyssp/D
+/short \*fdo_constraint_yyss/D
+s/fdo_constraint_yynerrs/pParse->fdo_constraint_yynerrs/g
+s/fdo_constraint_yydebug/pParse->fdo_constraint_yydebug/g
+s/fdo_constraint_yyerrflag/pParse->fdo_constraint_yyerrflag/g
+s/fdo_constraint_yychar/pParse->fdo_constraint_yychar/g
+s/fdo_constraint_yyssp/pParse->fdo_constraint_yyssp/g
+s/typedef union _FDO_CONSTRAINT_YYSTYPE/#if 0/g
+s/} FDO_CONSTRAINT_YYSTYPE;/#endif/g
+/FDO_CONSTRAINT_YYSTYPE \*fdo_constraint_yyvsp/D
+/FDO_CONSTRAINT_YYSTYPE fdo_constraint_yyval;/D
+/FDO_CONSTRAINT_YYSTYPE fdo_constraint_yylval;/D
+s/fdo_constraint_yyvsp/pParse->fdo_constraint_yyvsp/g
+s/fdo_constraint_yyval/pParse->fdo_constraint_yyval/g
+s/fdo_constraint_yylval/pParse->fdo_constraint_yylval/g
+s/fdo_constraint_yyss;/pParse->fdo_constraint_yyss;/g
+s/fdo_constraint_yyss /pParse->fdo_constraint_yyss /g
+s/fdo_constraint_yyss)/pParse->fdo_constraint_yyss)/g
+s/fdo_constraint_yyss,/pParse->fdo_constraint_yyss,/g
+s/fdo_constraint_yylineno/pParse->fdo_constraint_yylineno/g
+s/  fdo_constraint_yyerror(/ fdo_constraint_yyerror( pParse,/g
+/FDO_CONSTRAINT_YYSTYPE \*fdo_constraint_yyvs;/D
+/fdo_constraint_yystacksize;/D
+s/fdo_constraint_yystacksize/pParse->fdo_constraint_yystacksize/g
+s/fdo_constraint_yysslim/pParse->fdo_constraint_yysslim/g
+s/fdo_constraint_yyvs;/pParse->fdo_constraint_yyvs;/g
+s/fdo_constraint_yyvs /pParse->fdo_constraint_yyvs /g
+s/fdo_constraint_yyvs,/pParse->fdo_constraint_yyvs,/g
+s/int fdo_constraint_yygrowstack()/int fdo_constraint_yygrowstack(FdoCommonParse *pParse)/g
+s/fdo_constraint_yygrowstack()/fdo_constraint_yygrowstack(pParse)/g
+s/static int fdo_constraint_yygrowstack(FdoCommonParse \*pParse);/class FdoCommonParse;static int fdo_constraint_yygrowstack(FdoCommonParse \*pParse);/g
+

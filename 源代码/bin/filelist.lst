@@ -1,0 +1,56 @@
+#
+# SuperMap FDO Provider 安装文件列表
+#
+# Copyright (C) 1996-2007 SuperMap GIS Technologies,Inc.
+# All Rights Reserved
+#
+# 注释的部分引擎说明
+# UGC的一个缺陷，没有用到的引擎也都加入到进程的内存中，[效率和优化]
+#
+
+#
+# 文件列表分两部分，文件名和安装路径
+#
+# 如： ..\..\A\B\Install.h  
+#	..\..\A\B\是在MAP 3D或Civil 3D安装的路径，
+#	Install.h为本地和安装路径的文件名
+#
+
+ugc.xml
+PrjConfig.xml
+EPSFont.xml
+resource.xml
+gdal132.dll
+libiconv-2.dll
+libpng12.dll
+sqlite.dll
+zlib1.dll
+libcurl.dll
+SuAlgorithm200.dll
+SuBase200.dll
+SuCompoundFile200.dll
+SuDataExchange200.dll
+#SuDB2Engine200.sdx
+SuEngine200.dll
+#SuFileEngine200.sdx
+SuFileParser200.dll
+SuGeometry200.dll
+SuGraphics200.dll
+#SuKingbaseEngine200.sdx
+#SuMemoryEngine200.sdx
+SuODBCEngine200.dll
+SuOperation200.dll
+SuOrcEngine200.sdx
+SuProject200.dll
+SuPSGraphics200.uge
+SuSdbPlusEngine200.sdx
+#SuSdeEngine200.sdx
+SuSITEngine200.sdx
+SuSqlPlusEngine200.sdx
+SuTopology200.dll
+#SuUdbEngine200.sdx
+SuWGraphics200.uge
+#SuWebEngine200.sdx
+SuperMapMessage.dll
+SuperMapProvider.dll
+..\..\Plugins\DataConnect\SuperMapConnectionPlugin.dll

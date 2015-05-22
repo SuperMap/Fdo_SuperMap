@@ -1,0 +1,37 @@
+
+如果要正确的运行install.bat，首先目录和配置要一样，
+
+目录结构：
+E:\SUPERMAP-PROVIDER1.0
+├─Sourcecode
+│  ├─bin
+│  ├─CAD PlugIn
+│  ├─doc
+│  ├─inc
+│  ├─install
+│  ├─lib
+│  ├─Providers
+│  │  └─SuperMap
+│  │      ├─Message
+│  │      ├─Overrides
+│  │      ├─Provider
+│  │      ├─SMProviderTest
+│  │      ├─SuperMapFDOConnition
+│  │      └─UnitTest
+│  ├─Thirdparty
+│  │  ├─cppunit
+│  │  ├─FDO
+│  │  ├─UGC
+│  │  └─util
+│  └─Utilities
+│      └─Common
+└─TestCases
+
+
+构建方法：
+在E盘建立SuperMap-Provider1.0 目录，然后用SVN获取代码。
+
+另外，要安装Microsoft Visual Studio 2005，如果还没有安装，最好安装在C盘上，
+如果已经安装，并且也不在C盘上，要自己手动修改一下
+buildall.bat 文件中SET ACTIVEPATHCHECK="C:\Program Files\Microsoft Visual Studio 8\VC"
+把C盘改成你安装Microsoft Visual Studio 2005的盘符。

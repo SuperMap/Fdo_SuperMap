@@ -1,0 +1,192 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""Version.h""          // Version info\r\n"
+    "#include ""res\\Install.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Install.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 298, 179
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于SuperMap FDO 空间数据访问引擎"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "关于SuperMap FDO 空间数据访问引擎 v1.0",IDC_STATIC_NAME,39,15,240,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2007",IDC_STATIC_COPYRIGHT,39,28,239,9
+    DEFPUSHBUTTON   "确定",IDOK,241,156,50,16,WS_GROUP
+    EDITTEXT        IDC_EDT_BOX,11,51,274,101,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | WS_VSCROLL,WS_EX_STATICEDGE
+    COMBOBOX        IDC_LANGS,11,157,83,141,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_INSTALL_DIALOG DIALOGEX 0, 0, 317, 112
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "FDO 空间数据访问引擎1.0（内部版本） 安装工具 "
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "安装",IDOK,66,89,50,16,WS_DISABLED
+    PUSHBUTTON      "取消",IDCANCEL,217,89,50,16
+    LTEXT           "安装路径：",IDC_STATIC_PATH,14,28,51,8
+    GROUPBOX        "安装选项",IDC_STATIC_OPTION,7,7,303,46
+    COMBOBOX        IDC_COMBO_INSTALLPATH,67,25,233,58,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "卸载",IDC_BTN_UNINASTALL,137,89,50,16,WS_DISABLED
+    GROUPBOX        "",IDC_STATIC,7,61,303,23
+    LTEXT           "",IDC_STATIC_INFO,9,71,296,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 291
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 172
+    END
+
+    IDD_INSTALL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 310
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 105
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 Install(&A)..."
+    IDS_NOTDIR              "不能建立目录，请检查安装文件列表文件，再次安装！"
+    IDS_MB_LANGUAGEINFO     "没有本地语言支持"
+    IDS_OK                  "确定"
+    IDS_COPYRIGHT           "版权所有 (C) 2001-2007 北京超图地理信息技术有限公司"
+    IDS_ABOUTBOX_CAPTION    "关于SuperMap FDO 空间数据访问引擎 v1.0"
+    IDS_LICENSE             "安装说明：\r\n\r\n1、如果你安装此软件，说明已经接受SuperMap软件许可。\r\n\r\n2、本软件只用于内部测试使用，对数据造成的损失，后果自负。\r\n\r\n3、安装前请先确认是否已经安装过Map 3D 2008 或Civil 3D 2008 软件，\r\n   如果两者没有，请先安装。\r\n\r\n4、如果在试用过程中遇到问题，欢迎联系 超图应用研发中心 \r\n   电话: +86-10-82938420-8500。\r\n\r\n5、试用愉快。:)"
+    IDS_CAPTION             "FDO 空间数据访问引擎1.0（Alpha版本） 安装工具 "
+    IDS_STATIC_PATH         "安装路径："
+    IDS_STATIC_OPTION       "安装选项"
+    IDS_INSTALL             "安装"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UNINASTALL          "卸载"
+    IDS_CANCEL              "取消"
+    IDS_INSTALL_TITLE       "安装提示"
+    IDS_INSTALL_INFO        "        安装前请先关闭所有正在使用SuperMap FDO Provider的程序，\n以避无法覆盖安装的文件！"
+    IDS_NOT_FILELIST        "不能打开安装文件列表！"
+    IDS_COPYING             "正在复制 "
+    IDS_NO_COPYFILE         "不能安装："
+    IDS_SHOW_CONFIG         "正在配置 Providers.xml 文件 ..."
+    IDS_SHOW_INSTALL_DONE   "SuperMap FDO Provider 安装完毕！"
+    IDS_PROCESS_ERROR       "不能运行regsvr32.exe进程。"
+    IDS_SHOW_NOT_FOUND_PATH "没有找到安装路径。"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "Version.h"          // Version info
+#include "res\Install.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

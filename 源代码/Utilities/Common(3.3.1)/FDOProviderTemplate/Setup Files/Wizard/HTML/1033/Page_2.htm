@@ -1,0 +1,340 @@
+<HTML DIR="LTR">
+    <HEAD>
+        <TITLE>'Provider'</TITLE>
+        <META NAME="vs_targetSchema" CONTENT="http://schemas.microsoft.com/intellisense/ie5">
+        <STYLE TYPE="text/css">@import url();</STYLE>
+        <SCRIPT>
+		var strURL = window.external.FindSymbol("PRODUCT_INSTALLATION_DIR");
+		strURL += "VCWizards/";
+		strURL += window.external.GetHostLocale();
+		strURL += "/NewStyles.css";
+		document.styleSheets(0).imports(0).href = strURL;
+        </SCRIPT>
+        <!--  -->
+        <!-- The SYMBOL tag is used to set the default values for the user-defined symbols.-->
+        <!--  -->
+        <SYMBOL NAME='WIZARD_DIALOG_TITLE' TYPE="text" VALUE='FDO Provider Spatial Context Support'></SYMBOL>
+        <SYMBOL NAME='ACTIVATE_SPATIAL_CONTEXT' TYPE="checkbox" VALUE="false"></SYMBOL>
+        <SYMBOL NAME='GET_SPATIAL_CONTEXT' TYPE="checkbox" VALUE="false"></SYMBOL>
+        <SYMBOL NAME='CREATE_SPATIAL_CONTEXT' TYPE="checkbox" VALUE="false"></SYMBOL>
+        <SYMBOL NAME='DESTROY_SPATIAL_CONTEXT' TYPE="checkbox" VALUE="false"></SYMBOL>
+    </HEAD>
+    <BODY BGCOLOR="BUTTONFACE" TOPMARGIN="0" LEFTMARGIN="0" RIGHTMARGIN="0" BOTTOMMARGIN="0" ONLOAD="InitDocument(document);" ONKEYDOWN="OnKey();" ONKEYPRESS="OnPress();">
+        <TABLE CLASS="ONE" HEIGHT="100%" WIDTH="100%" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+            <COL WIDTH="178">
+            <COL>
+            <!--OPEN OF INTRODUCTORY INFORMATION TABLE//-->
+            <TR VALIGN="TOP">
+                <TD HEIGHT="79" WIDTH="100%" COLSPAN="2">
+                    <TABLE CLASS="TWO" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+                        <COL WIDTH="12">
+                        <COL>
+                        <COL WIDTH="12">
+                        <TR>
+                            <TD VALIGN="TOP" HEIGHT="12" WIDTH="12">
+                                &nbsp;
+                            </TD>
+                            <TD VALIGN="TOP" HEIGHT="12">
+                                &nbsp;
+                            </TD>
+                            <TD VALIGN="TOP" HEIGHT="12" WIDTH="12">
+                                &nbsp;
+                            </TD>
+                            <TD CLASS="IMAGE" VALIGN="BOTTOM" WIDTH="110" ROWSPAN="2">
+                                <DIV CLASS="SMALLA" ID="Layer0">
+                                    <IMG CLASS="SMALLEST" SRC="..\..\Images\FDOProviderTemplate.gif" WIDTH="63" HEIGHT="63" ALT="" BORDER="0">
+                                </DIV>
+                            </TD>
+                            <TD VALIGN="TOP" HEIGHT="12" WIDTH="6" ROWSPAN="2">
+                                &nbsp;
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD VALIGN="TOP" HEIGHT="65" WIDTH="12">
+                                &nbsp;
+                            </TD>
+                            <TD VALIGN="TOP" HEIGHT="65">
+                                <H4 CLASS="HEAD" ID="HEAD">Welcome to the 'FDO Provider Wizard'</H4>
+                                <P CLASS="SUBHEAD" ID="SUBHEAD">Creates the shell of a provider.</P>
+                            </TD>
+                            <TD VALIGN="TOP" HEIGHT="65" WIDTH="12">
+                                &nbsp;
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD VALIGN="TOP" CLASS="RULE" COLSPAN="5" HEIGHT="2">
+                                <TABLE BORDER="0" WIDTH="100%" HEIGHT="1" CELLPADDING="0" CELLSPACING="0">
+                                    <TR VALIGN="TOP">
+                                        <TD HEIGHT="1" WIDTH="100%" BGCOLOR="BUTTONSHADOW"><IMG SRC="../../Images/spacer.gif" HEIGHT="1" WIDTH="1" ALT=""></TD>
+                                        <TD HEIGHT="1" WIDTH="1" BGCOLOR="WINDOW"><IMG SRC="../../Images/spacer.gif" HEIGHT="1" WIDTH="1" ALT=""></TD>
+                                    </TR>
+                                </TABLE>
+                            </TD>
+                        </TR>
+                    </TABLE>
+                </TD>
+            </TR>
+            <!--CLOSE OF INTRODUCTORY INFORMATION TABLE//-->
+            <!--OPEN OF NAVIGATION, CONTENT, AND BUTTON TABLES//-->
+            <TR VALIGN="TOP">
+                <TD CLASS="THREE" VALIGN="TOP" HEIGHT="100%" WIDTH="178" STYLE="BACKGROUND-IMAGE: URL(../../Images/FDOProviderTemplate_Background.gif);">
+                    <!--OPEN OF NAVIGATION TABLE//-->
+                    <TABLE CLASS="THREE" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+                        <COL WIDTH="12">
+                        <COL WIDTH="166">
+                        <COL WIDTH="1">
+                        <TR>
+                            <TD VALIGN="TOP" COLSPAN="3" HEIGHT="12">
+                                &nbsp;
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD VALIGN="TOP" HEIGHT="100%" WIDTH="12">
+                                &nbsp;
+                            </TD>
+                            <TD VALIGN="TOP" HEIGHT="100%" WIDTH="165">
+                                <!--OPEN OF NAVIGATIONAL LINKS//-->
+                                <DIV CLASS="LINK">
+                                    <TABLE WIDTH="166" HEIGHT="28" BORDER="0" CELLPADDING="0" CELLSPACING="0" CLASS="LINKTEXT">
+                                        <TR VALIGN="MIDDLE">
+                                            <TD WIDTH="162">
+                                                <SPAN CLASS="ACTIVELINK" ID="Default" TITLE="" onClick="Next(document, 'default.htm');" TABINDEX="1">Page 1</SPAN>
+                                            </TD>
+                                            <TD WIDTH="4">
+                                                <IMG SRC="../../Images/spacer.gif" HEIGHT="1" WIDTH="4">
+                                            </TD>
+                                        </TR>
+                                    </TABLE>
+                                </DIV>
+                                <DIV CLASS="LINKSELECTED">
+                                    <SPAN CLASS="VERTLINE1"><IMG SRC="../../Images/spacer.gif" WIDTH="1" HEIGHT="1" ALT="" BORDER="0">
+                                    </SPAN><SPAN CLASS="HORILINE1">
+                                        <TABLE WIDTH="167" HEIGHT="100%" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+                                            <TR VALIGN="TOP">
+                                                <TD CLASS="DOTTEDLINE" HEIGHT="1">
+                                                </TD>
+                                            </TR>
+                                            <TR VALIGN="TOP">
+                                                <TD HEIGHT="100%">
+                                                    <IMG SRC="../../Images/spacer.gif" WIDTH="1" HEIGHT="28" ALT="" BORDER="0">
+                                                </TD>
+                                            </TR>
+                                            <TR VALIGN="TOP">
+                                                <TD CLASS="DOTTEDLINE" HEIGHT="1">
+                                                </TD>
+                                            </TR>
+                                        </TABLE>
+                                    </SPAN>
+                                    <TABLE WIDTH="160" HEIGHT="28" BORDER="0" CELLPADDING="0" CELLSPACING="0" CLASS="LINKTEXTSELECTED">
+                                        <TR VALIGN="MIDDLE">
+                                            <TD WIDTH="162">
+                                                <SPAN ID="Page_2" TITLE="" onClick="Next(document, 'Page_2.htm');" TABINDEX="1">Page 2</SPAN>
+                                            </TD>
+                                            <TD WIDTH="4">
+                                                <IMG SRC="../../Images/spacer.gif" HEIGHT="1" WIDTH="4">
+                                            </TD>
+                                        </TR>
+                                    </TABLE>
+                                </DIV>
+                                <!--CLOSE OF NAVIGATIONAL LINKS//-->
+                            </TD>
+                            <TD WIDTH="1">
+                                <DIV CLASS="VERTLINE">
+                                    <IMG SRC="../../Images/spacer.gif" WIDTH="1" HEIGHT="1" ALT="" BORDER="0">
+                                </DIV>
+                            </TD>
+                        </TR>
+                    </TABLE>
+                    <!--CLOSE OF NAVIGATION TABLE//-->
+                </TD>
+                <TD VALIGN="TOP" HEIGHT="100%">
+                    <!--OPEN OF CONTENT AND BUTTON TABLE//-->
+                    <TABLE CLASS="ONE" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+                        <COL WIDTH="100%">
+                        <TR VALIGN="TOP">
+                            <TD HEIGHT="100%">
+                                <!--OPEN OF CONTENT//-->
+                                <TABLE CLASS="CONTENT" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+                                    <COL WIDTH="12">
+                                    <COL WIDTH="185">
+                                    <COL WIDTH="12">
+                                    <COL WIDTH="185">
+                                    <COL WIDTH="12">
+                                    <COL WIDTH="185">
+                                    <COL WIDTH="12">
+                                    <TR>
+                                        <TD VALIGN="TOP" HEIGHT="12" COLSPAN="5">
+                                            &nbsp;
+                                        </TD>
+                                    </TR>
+                                    <TR VALIGN="TOP">
+                                        <TD VALIGN="TOP" WIDTH="12">
+                                            &nbsp;
+                                        </TD>
+                                        <TD VALIGN="TOP" COLSPAN="3">
+                                            <SPAN CLASS="itemTextTop"><INPUT CLASS="CheckBox" TYPE="checkbox" ID="ACTIVATE_SPATIAL_CONTEXT" ACCESSKEY="A" TITLE="Activate spatial context." NAME="ACTIVATE_SPATIAL_CONTEXT">
+                                                <DIV CLASS="itemTextCheckboxA" ID="ACTIVATE_SPATIAL_CONTEXT_DIV" TITLE="Activate spatial context.">
+                                                    <LABEL FOR="ACTIVATE_SPATIAL_CONTEXT" TITLE="Activate spatial context." ID="AUT_ID"><U>A</U>ctivate spatial context.</LABEL>
+                                                </DIV>
+                                            </SPAN>
+                                            <P CLASS="ElementSpacer">&nbsp;</P>
+                                            <SPAN CLASS="itemTextTop"><INPUT CLASS="CheckBox" TYPE="checkbox" ID="GET_SPATIAL_CONTEXT" ACCESSKEY="G" TITLE="Get spatial context." NAME="GET_SPATIAL_CONTEXT">
+                                                <DIV CLASS="itemTextCheckboxA" ID="GET_SPATIAL_CONTEXT_DIV" TITLE="Get spatial context.">
+                                                    <LABEL FOR="GET_SPATIAL_CONTEXT" TITLE="Get spatial context." ID="Label6"><U>G</U>et spatial context.</LABEL>
+                                                </DIV>
+                                            </SPAN>
+                                            <P CLASS="ElementSpacer">&nbsp;</P>
+                                            <SPAN CLASS="itemText"><INPUT CLASS="CheckBox" TYPE="checkbox" ID="CREATE_SPATIAL_CONTEXT" ACCESSKEY="C" TITLE="Create spatial context." NAME="CREATE_SPATIAL_CONTEXT">
+                                                <DIV CLASS="itemTextCheckboxA" ID="CREATE_SPATIAL_CONTEXT_DIV" TITLE="Create spatial context.">
+                                                    <LABEL FOR="CREATE_SPATIAL_CONTEXT" TITLE="Create spatial context." ID="Label2"><U>C</U>reate spatial context.</LABEL>
+                                                </DIV>
+                                            </SPAN>
+                                            <P CLASS="ElementSpacer">&nbsp;</P>
+                                            <SPAN CLASS="itemText"><INPUT CLASS="CheckBox" TYPE="checkbox" ID="DESTROY_SPATIAL_CONTEXT" ACCESSKEY="D" TITLE="Destroy spatial context." NAME="DESTROY_SPATIAL_CONTEXT">
+                                                <DIV CLASS="itemTextCheckboxA" ID="DESTROY_SPATIAL_CONTEXT_DIV" TITLE="Destroy spatial context.">
+                                                    <LABEL FOR="DESTROY_SPATIAL_CONTEXT" TITLE="Destroy spatial context." ID="Label3"><U>D</U>estroy spatial context.</LABEL>
+                                                </DIV>
+                                            </SPAN>
+                                        </TD>
+                                        <TD VALIGN="TOP" WIDTH="12">
+                                            &nbsp;
+                                        </TD>
+                                    </TR>
+                                    <TR>
+                                        <TD VALIGN="TOP" HEIGHT="100%" COLSPAN="7">
+                                            &nbsp;
+                                        </TD>
+                                    </TR>                                </TABLE>
+                                <!--CLOSE OF CONTENT//-->
+                            </TD>
+                        </TR>
+                        <TR VALIGN="BOTTOM">
+                            <TD HEIGHT="48">
+                                <!--OPEN OF BUTTON HTML//-->
+                                <TABLE HEIGHT="48" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+                                    <COL WIDTH="12">
+                                    <COL>
+                                    <COL WIDTH="75">
+                                    <COL WIDTH="4">
+                                    <COL WIDTH="75">
+                                    <COL WIDTH="4">
+                                    <COL WIDTH="75">
+                                    <COL WIDTH="12">
+                                    <TR>
+                                        <TD VALIGN="TOP" CLASS="RULE" COLSPAN="8" HEIGHT="2">
+                                            <TABLE BORDER="0" WIDTH="100%" HEIGHT="1" CELLPADDING="0" CELLSPACING="0">
+                                                <TR VALIGN="TOP">
+                                                    <TD HEIGHT="1" WIDTH="100%" BGCOLOR="BUTTONSHADOW"><IMG SRC="../../Images/spacer.gif" HEIGHT="1" WIDTH="1" ALT=""></TD>
+                                                    <TD HEIGHT="1" WIDTH="1" BGCOLOR="WINDOW"><IMG SRC="../../Images/spacer.gif" HEIGHT="1" WIDTH="1" ALT=""></TD>
+                                                </TR>
+                                            </TABLE>
+                                        </TD>
+                                    </TR>
+                                    <TR>
+                                        <TD VALIGN="TOP" HEIGHT="11" COLSPAN="8">
+                                            &nbsp;
+                                        </TD>
+                                    </TR>
+                                    <TR>
+                                        <TD VALIGN="MIDDLE" HEIGHT="23" WIDTH="12">
+                                            &nbsp;
+                                        </TD>
+                                        <TD VALIGN="TOP" HEIGHT="23">
+                                            &nbsp;
+                                        </TD>
+                                        <TD VALIGN="MIDDLE" HEIGHT="23" WIDTH="75">
+                                            <BUTTON CLASS="BUTTONS" ID="FinishBtn" ACCESSKEY="F" onClick="OnFinish(document);"><U>F</U>inish</BUTTON>
+                                        </TD>
+                                        <TD VALIGN="MIDDLE" HEIGHT="23" WIDTH="4">
+                                            &nbsp;
+                                        </TD>
+                                        <TD VALIGN="MIDDLE" HEIGHT="23" WIDTH="75">
+                                            <BUTTON CLASS="BUTTONS" ID="CancelBtn" ACCESSKEY="C" onClick="window.external.Finish(document, 'cancel');">
+                                                <U>C</U>ancel</BUTTON>
+                                        </TD>
+                                        <TD VALIGN="MIDDLE" HEIGHT="23" WIDTH="4">
+                                            &nbsp;
+                                        </TD>
+                                        <TD VALIGN="MIDDLE" HEIGHT="23" WIDTH="75">
+                                            <BUTTON CLASS="BUTTONS" ID="HelpBtn" ACCESSKEY="H" onClick="window.external.OnHelp('vc.appwiz.custom.overview');">
+                                                <U>H</U>elp</BUTTON>
+                                        </TD>
+                                        <TD VALIGN="MIDDLE" HEIGHT="23" WIDTH="12">
+                                            &nbsp;
+                                        </TD>
+                                    </TR>
+                                    <TR>
+                                        <TD VALIGN="TOP" HEIGHT="12" COLSPAN="8">
+                                            &nbsp;
+                                        </TD>
+                                    </TR>
+                                </TABLE>
+                                <!--CLOSE OF BUTTON HTML//-->
+                            </TD>
+                        </TR>
+                    </TABLE>
+                    <!--CLOSE OF NAVIGATION, CONTENT, AND BUTTON TABLES//-->
+                </TD>
+            </TR>
+        </TABLE>
+    </BODY>
+</HTML>
+<SCRIPT LANGUAGE="JSCRIPT">
+
+var tab_array = new Array();
+tab_array[0] = Default;
+tab_array[1] = Page_2;
+
+// This is an example of a function which initializes the page
+//
+function InitDocument(document)
+{
+	setDirection();
+	
+	if (window.external.FindSymbol('DOCUMENT_FIRST_LOAD'))
+	{
+		// This function sets the default symbols based 
+		// on the values specified in the SYMBOL tags above
+		//
+		window.external.SetDefaults(document);
+	}
+
+	// Load the document and initialize the controls 
+	// with the appropriate symbol values
+	//
+	window.external.Load(document);
+}
+
+// If the wizard has more than 1 page, this 
+// function will browse to the page specified
+//
+function Next(document, linkto)
+{
+	window.external.Next(document, linkto);
+}
+
+// This is an example of a function which
+// gets called when the user clicks on 'Finish'
+//
+function OnFinish(document)
+{
+	OnWizFinish(document);
+}
+
+</SCRIPT>
+<SCRIPT ID="INCLUDE_SCRIPT" LANGUAGE="JSCRIPT"></SCRIPT>
+<SCRIPT ID="INCLUDE_COMMON" LANGUAGE="JSCRIPT"></SCRIPT>
+<!-- 
+Common.js is a script file which contains the helper functions 
+used by the wizards.  Include this line if you want to
+call these functions from your html scripts.
+//-->
+<SCRIPT>
+	var strPath = window.external.FindSymbol("PRODUCT_INSTALLATION_DIR");
+	strPath += "VCWizards/";
+	strPath += window.external.GetHostLocale();
+	var strScriptPath = strPath + "/Script.js";
+	var strCommonPath = strPath + "/Common.js";
+	document.scripts("INCLUDE_SCRIPT").src = strScriptPath;
+	document.scripts("INCLUDE_COMMON").src = strCommonPath;
+</SCRIPT>

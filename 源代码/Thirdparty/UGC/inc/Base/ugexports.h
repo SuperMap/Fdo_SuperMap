@@ -1,0 +1,319 @@
+#ifndef UGEXPORTS_H
+#define UGEXPORTS_H
+
+// Shared library support
+#ifdef WIN32
+	#define UGEXPORT __declspec(dllexport)
+	#define UGIMPORT __declspec(dllimport)
+#else
+	#define UGEXPORT
+	#define UGIMPORT
+#endif
+
+//为每个工程添加导入导出符
+
+#ifdef ALGORITHM_EXPORTS
+	#define ALGORITHM_API UGEXPORT
+#else
+	#define ALGORITHM_API UGIMPORT
+#endif
+
+#ifdef BASE_EXPORTS
+	#define BASE_API UGEXPORT
+#else
+	#define BASE_API UGIMPORT
+#endif
+
+
+#ifdef COMPOUNDFILE_EXPORTS
+	#define COMPOUNDFILE_API UGEXPORT
+#else
+	#define COMPOUNDFILE_API UGIMPORT
+#endif
+
+
+#ifdef DATAEXCHANGE_EXPORTS
+	#define DATAEXCHANGE_API UGEXPORT
+#else
+	#define DATAEXCHANGE_API UGIMPORT
+#endif
+
+#ifdef DRAWING_EXPORTS
+	#define DRAWING_API UGEXPORT
+#else
+	#define DRAWING_API UGIMPORT
+#endif
+
+#ifdef EDITOR_EXPORTS
+	#define EDITOR_API UGEXPORT
+#else
+	#define EDITOR_API UGIMPORT
+#endif
+
+#ifdef ENGINE_EXPORTS
+	#define ENGINE_API UGEXPORT
+#else
+	#define ENGINE_API UGIMPORT
+#endif
+
+#ifdef FILEENGINE_EXPORTS
+	#define FILEENGINE_API UGEXPORT
+#else
+	#define FILEENGINE_API UGIMPORT
+#endif
+
+#ifdef FILEPARSER_EXPORTS
+	#define FILEPARSER_API UGEXPORT
+#else
+	#define FILEPARSER_API UGIMPORT
+#endif
+
+#ifdef GEOMETRY_EXPORTS
+	#define GEOMETRY_API UGEXPORT
+#else
+	#define GEOMETRY_API UGIMPORT
+#endif
+
+#ifdef GRAPHICS_EXPORTS
+	#define GRAPHICS_API UGEXPORT
+#else
+	#define GRAPHICS_API UGIMPORT
+#endif
+
+#ifdef GRIDANALYST_EXPORTS
+	#define GRIDANALYST_API UGEXPORT
+#else
+	#define GRIDANALYST_API UGIMPORT
+#endif
+
+#ifdef LAYOUT_EXPORTS
+	#define LAYOUT_API UGEXPORT
+#else
+	#define LAYOUT_API UGIMPORT
+#endif
+
+#ifdef LICENSE_EXPORTS
+	#define LICENSE_API UGEXPORT
+#else
+	#define LICENSE_API UGIMPORT
+#endif
+
+#ifdef MAP_EXPORTS
+	#define MAP_API UGEXPORT
+#else
+	#define MAP_API UGIMPORT
+#endif
+
+#ifdef MAP_EXPORTS
+	#define MAP_API UGEXPORT
+#else
+	#define MAP_API UGIMPORT
+#endif
+
+#ifdef NETWORKANALYST_EXPORTS
+	#define NETWORKANALYST_API UGEXPORT
+#else
+	#define NETWORKANALYST_API UGIMPORT
+#endif
+
+#ifdef GEOCODE_EXPORTS
+	#define GEOCODE_API UGEXPORT
+#else
+	#define GEOCODE_API UGIMPORT
+#endif
+
+#ifdef OPERATION_EXPORTS
+	#define OPERATION_API UGEXPORT
+#else
+	#define OPERATION_API UGIMPORT
+#endif
+
+
+#ifdef SDBPLUSENGINE_EXPORTS
+	#define SDBPLUSENGINE_API UGEXPORT
+#else
+	#define SDBPLUSENGINE_API UGIMPORT
+#endif
+
+
+#ifdef ORCENGINE_EXPORTS
+	#define ORCENGINE_API UGEXPORT
+#else
+	#define ORCENGINE_API UGIMPORT
+#endif
+
+#ifdef UDBENGINE_EXPORTS
+	#define UDBENGINE_API UGEXPORT
+#else
+	#define UDBENGINE_API UGIMPORT
+#endif
+
+
+#ifdef SITENGINE_EXPORTS
+	#define SITENGINE_API UGEXPORT
+#else
+	#define SITENGINE_API UGIMPORT
+#endif
+
+
+
+#ifdef PROJECT_EXPORTS
+	#define PROJECT_API UGEXPORT
+#else
+	#define PROJECT_API UGIMPORT
+#endif
+
+#ifdef SITENGINE_EXPORTS
+	#define SITENGINE_API UGEXPORT
+#else
+	#define SITENGINE_API UGIMPORT
+#endif
+
+#ifdef SYMBOL_EXPORTS
+	#define SYMBOL_API UGEXPORT
+#else
+	#define SYMBOL_API UGIMPORT
+#endif
+
+#ifdef TABLE_EXPORTS
+	#define TABLE_API UGEXPORT
+#else
+	#define TABLE_API UGIMPORT
+#endif
+
+#ifdef TOPOLOGY_EXPORTS
+	#define TOPOLOGY_API UGEXPORT
+#else
+	#define TOPOLOGY_API UGIMPORT
+#endif
+
+#ifdef UGRAPHICS_EXPORTS
+	#define UGRAPHICS_API UGEXPORT
+#else
+	#define UGRAPHICS_API UGIMPORT
+#endif
+
+#ifdef WGRAPHICS_EXPORTS
+	#define WGRAPHICS_API UGEXPORT
+#else
+	#define WGRAPHICS_API UGIMPORT
+#endif
+
+#ifdef WORKSPACE_EXPORTS
+	#define WORKSPACE_API UGEXPORT
+#else
+	#define WORKSPACE_API UGIMPORT
+#endif
+
+#ifdef WEBENGINE_EXPORTS
+	#define WEBENGINE_API UGEXPORT
+#else 
+	#define WEBENGINE_API UGIMPORT
+#endif
+
+#ifdef XGRAPHICS_EXPORTS
+	#define XGRAPHICS_API UGEXPORT
+#else
+	#define XGRAPHICS_API UGIMPORT
+#endif
+
+//3D-related projects
+#ifdef SCENE_EXPORTS
+#define SCENE_API UGEXPORT
+#else
+#define SCENE_API UGIMPORT
+#endif
+
+#ifdef GLRENDERSYS_EXPORTS
+#define GLRENDERSYS_API UGEXPORT
+#else
+#define GLRENDERSYS_API UGIMPORT
+#endif
+
+#ifdef D3DRENDERSYS_EXPORTS
+#define D3DRENDERSYS_API UGEXPORT
+#else
+#define D3DRENDERSYS_API UGIMPORT
+#endif
+
+#ifdef RENDERWINDOW_EXPORTS
+#define RENDERWINDOW_API UGEXPORT
+#else
+#define RENDERWINDOW_API UGIMPORT
+#endif
+
+#ifdef DRAWING3D_EXPORTS
+#define DRAWING3D_API UGEXPORT
+#else
+#define DRAWING3D_API UGIMPORT
+#endif
+
+#ifdef EDITOR3D_EXPORTS
+#define EDITOR3D_API UGEXPORT
+#else
+#define EDITOR3D_API UGIMPORT
+#endif
+
+#ifdef SYMBOL3D_EXPORTS
+#define SYMBOL3D_API UGEXPORT
+#else
+#define SYMBOL3D_API UGIMPORT
+#endif
+
+#ifdef GRAPHICS3D_EXPORTS
+#define GRAPHICS3D_API UGEXPORT
+#else 
+#define GRAPHICS3D_API UGIMPORT 
+#endif
+
+#ifdef GLGRAPHICS_EXPORTS
+#define GLGRAPHICS_API UGEXPORT
+#else
+#define GLGRAPHICS_API UGIMPORT
+#endif
+
+#ifdef SDEENGINE_EXPORTS
+	#define SDEENGINE_API UGEXPORT
+#else
+	#define SDEENGINE_API UGIMPORT
+#endif
+
+
+#ifdef DB2ENGINE_EXPORTS
+#define DB2ENGINE_API UGEXPORT
+#else
+#define DB2ENGINE_API UGIMPORT
+#endif
+
+#ifdef SQLENGINE_EXPORTS
+#define SQLENGINE_API UGEXPORT
+#else
+#define SQLENGINE_API UGIMPORT
+#endif
+
+#ifdef KINGENGINE_EXPORTS
+#define KINGENGINE_API UGEXPORT
+#else
+#define KINGENGINE_API UGIMPORT
+#endif
+
+#ifdef MEMENGINE_EXPORTS
+#define MEMENGINE_API UGEXPORT
+#else
+#define MEMENGINE_API UGIMPORT
+#endif
+
+#ifdef PSGRAPHICS_EXPORTS
+#define  PSGRAPHICS_API UGEXPORT
+#else
+#define PSGRAPHICS_API UGIMPORT
+#endif
+
+#ifdef BUILDER3D_EXPORTS
+#define BUILDER3D_API UGEXPORT
+#else
+#define BUILDER3D_API UGIMPORT
+#endif
+
+#endif
+

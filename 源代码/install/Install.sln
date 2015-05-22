@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Install", "Install.vcproj", "{6D90C6D2-D899-4B03-94B4-21740A786531}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "en_US", "en_US\en_US.vcproj", "{DC935447-1C79-4410-A351-301451B800A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D90C6D2-D899-4B03-94B4-21740A786531}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6D90C6D2-D899-4B03-94B4-21740A786531}.Debug|Win32.Build.0 = Debug|Win32
+		{6D90C6D2-D899-4B03-94B4-21740A786531}.Release|Win32.ActiveCfg = Release|Win32
+		{6D90C6D2-D899-4B03-94B4-21740A786531}.Release|Win32.Build.0 = Release|Win32
+		{DC935447-1C79-4410-A351-301451B800A5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DC935447-1C79-4410-A351-301451B800A5}.Debug|Win32.Build.0 = Debug|Win32
+		{DC935447-1C79-4410-A351-301451B800A5}.Release|Win32.ActiveCfg = Release|Win32
+		{DC935447-1C79-4410-A351-301451B800A5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

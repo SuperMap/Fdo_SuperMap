@@ -1,0 +1,17 @@
+UGC更新到 3604
+
+动态库：
+SuGLRenderSys200.dll
+SuD3DRenderSys200.dll
+SuRenderWindow200.dll
+SuScene200.dll
+SuMemoryEngine200.sdx 与本身连接库不一致
+SuSdeEngine200.sdx   与本身连接库不一致
+
+头文件：
+
+...
+
+
+
+

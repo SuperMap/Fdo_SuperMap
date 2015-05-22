@@ -1,0 +1,10 @@
+unsigned char vendor_code[] =	"wtp4wBTLs8npm0KOxcomNlH16V/xDKMFc5V74Ik7qAF/l5UCQ0CNWNdsAZt7D5TZUUgYfm1ijqMMno0w"
+								"/gzIi3u5SbIiLdVb11eceGnEGds35x5AE5vu/L1pbkkbxSXiSpzpsfcj9Y/XrVyMdWbwwSlb9sugRRvM"
+								"P2AsmeUovULyuGhIvd1NA1nmCIyrvytbPgnCnlJPOdnmdyPyzo0ZFjDHBfgtV1qg7JlBIRxmVR2YUdPL"
+								"8dQPzp2WHGDVM3jbuJ+V8PFCOwmao6fDkuARXkKj96Kgfw+i86B6AMDHCLTvN8PSqNESXNxft04Yk8nj"
+								"qZ+EGmcNDAvvtpz5C0kLEtnOM2ioX+lI8FNKBHWKeesIWz9Fe0Q1d/xMxhVcbIsPmgFUrJCzDr7zZc1W"
+								"A078e7hubKlciK7RtNLpY69j8L87FbTXtAE/m756bq9Yx7HRAdLLjsHRIlJf0cHPSSENbaEF1GEL6HBF"
+								"zEldZzZj+KTUJLBQ9Kh9mFz9BiPT/RLFAsNyYlMoDn6GEd0mspy8H7Wbn7SjqPzRMjFqjDrwcl1o0yLo"
+								"O813TmKthT8k9AT0ub9iTSamEShy+C9dE/tEkja7RgyeFgO7yuKwx2tF/aqVf7REYFB2HU7Grrlux3Kv"
+								"CaMeOWUTjBHqD9mZR08pCOJBMhjuSsOtB7Ed7T+kwd+FBEsW0BGFRCtfUzG4WT/mQa8ilJI5nyWHn8ko"
+								"4CkQeSKGdKg+qQ==";

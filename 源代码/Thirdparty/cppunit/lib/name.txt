@@ -1,0 +1,14 @@
+D
+cppunitd.lib
+cppunitd_dll.dll
+cppunitd_dll.lib
+testrunnerd.dll
+testrunnerd.lib
+
+
+R
+cppunit.lib
+cppunit_dll.dll
+cppunit_dll.lib
+TestRunner.dll
+TestRunner.lib

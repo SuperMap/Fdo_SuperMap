@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="GB2312"?>
+<SuperMapWorkspace xmlns:sml="http://www.supermap.com/sml" sml:Version="20031211" sml:Description="Created by SuperMap GIS 5"><sml:DataSources>
+<sml:Datasource>
+<sml:EngineType>14</sml:EngineType>
+<sml:Server>.\world.sdb</sml:Server>
+<sml:Instance/>
+<sml:Database/>
+<sml:User/>
+<sml:Password/>
+<sml:Alias>world</sml:Alias>
+<sml:Options sml:ReadOnly="FALSE" sml:Encrypt="FALSE" sml:Exclusive="TRUE" sml:Transacted="FALSE"/>
+<sml:AutoConnection>TRUE</sml:AutoConnection>
+</sml:Datasource>
+</sml:DataSources>
+<sml:Maps>
+<sml:Map>
+<sml:Name>世界地图</sml:Name>
+<sml:Description/>
+<sml:DefaultScale>0.000000</sml:DefaultScale>
+<sml:CoordinateRatio>69.7724715684</sml:CoordinateRatio>
+<sml:DefaultCenter sml:x="24.9829330000" sml:y="22.0154580000"/>
+<sml:RotationOptions>
+<sml:Angle>0.0000000000</sml:Angle>
+<sml:RotateSymbol>TRUE</sml:RotateSymbol>
+<sml:RotateText>TRUE</sml:RotateText>
+</sml:RotationOptions>
+<sml:FixedTextOrientation>FALSE</sml:FixedTextOrientation>
+<sml:AllowTextOverlap>TRUE</sml:AllowTextOverlap>
+<sml:MinVisibleTextSize>3</sml:MinVisibleTextSize>
+<sml:MaxVisibleTextSize>10000</sml:MaxVisibleTextSize>
+<sml:DynamicProjection>FALSE</sml:DynamicProjection>
+<sml:PJDescription/>
+<sml:CoordinateReferenceSystem>
+<sml:Nameset>
+<sml:name>经纬坐标系---GCS_WGS_1984</sml:name>
+</sml:Nameset>
+<sml:Type>1</sml:Type>
+<sml:Units>METER</sml:Units>
+<sml:GeographicCoordinateSystem>
+<sml:Nameset>
+<sml:Name>GCS_WGS_1984</sml:Name>
+</sml:Nameset>
+<sml:Type>4326</sml:Type>
+<sml:Units>DEGREE</sml:Units>
+<sml:HorizonalGeodeticDatum>
+<sml:Nameset>
+<sml:Name>D_WGS_1984</sml:Name>
+</sml:Nameset>
+<sml:Type>6326</sml:Type>
+<sml:Ellipsoid>
+<sml:Nameset>
+<sml:Name>WGS_1984</sml:Name>
+</sml:Nameset>
+<sml:Type>7030</sml:Type>
+<sml:SemiMajorAxis>6378137.0000000000</sml:SemiMajorAxis>
+<sml:InverseFlattening>298.2572204270</sml:InverseFlattening>
+</sml:Ellipsoid>
+</sml:HorizonalGeodeticDatum>
+<sml:PrimeMeridian>
+<sml:Nameset>
+<sml:Name>Greenwich</sml:Name>
+</sml:Nameset>
+<sml:Type>8901</sml:Type>
+<sml:PrimeMeridian>0.0000000000</sml:PrimeMeridian>
+</sml:PrimeMeridian>
+</sml:GeographicCoordinateSystem>
+<sml:MapProjection>
+<sml:Nameset>
+<sml:Name>No Projection</sml:Name>
+</sml:Nameset>
+<sml:Type>-1</sml:Type>
+</sml:MapProjection>
+<sml:Parameters>
+<sml:FalseEasting>500000.0000000000</sml:FalseEasting>
+<sml:FalseNorthing>0.0000000000</sml:FalseNorthing>
+<sml:CentralMeridian>-177.0000000000</sml:CentralMeridian>
+<sml:StandardParallel1>0.0000000000</sml:StandardParallel1>
+<sml:StandardParallel2>0.0000000000</sml:StandardParallel2>
+<sml:ScaleFactor>0.9996000000</sml:ScaleFactor>
+<sml:CentralParallel>0.0000000000</sml:CentralParallel>
+<sml:Azimuth>0.0000000000</sml:Azimuth>
+<sml:FirstPointLongitude>0.0000000000</sml:FirstPointLongitude>
+<sml:SecondPointLongitude>0.0000000000</sml:SecondPointLongitude>
+</sml:Parameters>
+</sml:CoordinateReferenceSystem>
+<sml:ColorMode>0</sml:ColorMode>
+<sml:BackStyle>
+<sml:FillStyle>0</sml:FillStyle>
+<sml:FillForeColor>RGB(255,255,255)</sml:FillForeColor>
+<sml:FillBackColor>RGB(255,255,255)</sml:FillBackColor>
+<sml:BackTransparent>FALSE</sml:BackTransparent>
+</sml:BackStyle>
+<sml:Layers>
+<sml:Layer>
+<sml:Caption>Capital@world</sml:Caption>
+<sml:DataSourceAlias>world</sml:DataSourceAlias>
+<sml:DatasetName>Capital</sml:DatasetName>
+<sml:GeoStyle>
+<sml:SymbolStyle>12</sml:SymbolStyle>
+<sml:SymbolSize>20</sml:SymbolSize>
+<sml:SymbolAngle>0</sml:SymbolAngle>
+<sml:LineStyle>0</sml:LineStyle>
+<sml:LineWidth>1</sml:LineWidth>
+<sml:LineColor>RGB(0,0,0)</sml:LineColor>
+<sml:FillStyle>0</sml:FillStyle>
+<sml:FillForeColor>RGB(196,196,196)</sml:FillForeColor>
+<sml:FillBackColor>RGB(255,255,255)</sml:FillBackColor>
+<sml:BackTransparent>FALSE</sml:BackTransparent>
+<sml:FillOpaqueRate>100</sml:FillOpaqueRate>
+<sml:FillGradientType>0</sml:FillGradientType>
+<sml:FillGradientAngle>0.000000</sml:FillGradientAngle>
+<sml:FillCenterOffsetX>0</sml:FillCenterOffsetX>
+<sml:FillCenterOffsetY>0</sml:FillCenterOffsetY>
+</sml:GeoStyle>
+<sml:RasterOpaqueRate>100</sml:RasterOpaqueRate>
+<sml:RasterBrightness>0</sml:RasterBrightness>
+<sml:RasterContrast>0</sml:RasterContrast>
+<sml:QueryDef>
+<sml:QueryType>0</sml:QueryType>
+<sml:Options>3</sml:Options>
+<sml:Mode>0</sml:Mode>
+<sml:CursorType>2</sml:CursorType>
+<sml:CursorLocation>2</sml:CursorLocation>
+</sml:QueryDef>
+<sml:Options>
+<sml:Visible>TRUE</sml:Visible>
+<sml:Selectable>FALSE</sml:Selectable>
+<sml:Editable>FALSE</sml:Editable>
+<sml:EditableLock>TRUE</sml:EditableLock>
+<sml:Snapable>FALSE</sml:Snapable>
+<sml:SymbolScalable>FALSE</sml:SymbolScalable>
+<sml:AllowTextOverlap>FALSE</sml:AllowTextOverlap>
+<sml:ThemeVisibleOptions>
+<sml:ThemeLabel>TRUE</sml:ThemeLabel>
+</sml:ThemeVisibleOptions>
+</sml:Options>
+<sml:VisibleObjectMinimum>4</sml:VisibleObjectMinimum>
+<sml:VisibleScaleMin>0.0082416514172764</sml:VisibleScaleMin>
+<sml:VisibleScaleMax>0.0000000000000000</sml:VisibleScaleMax>
+<sml:SymbolScaleDefinition>-1.0000000000000000</sml:SymbolScaleDefinition>
+<sml:Themes>
+<sml:ThemeLabel>
+	<sml:FieldExpression>Capital</sml:FieldExpression>
+	<sml:Caption>标签专题图</sml:Caption>
+	<sml:VisibleScaleMin>0</sml:VisibleScaleMin>
+	<sml:VisibleScaleMax>0</sml:VisibleScaleMax>
+	<sml:Options>
+		<sml:EnableFlow>TRUE</sml:EnableFlow>
+		<sml:ShowLeaderLines>FALSE</sml:ShowLeaderLines>
+		<sml:AlongLine>FALSE</sml:AlongLine>
+		<sml:FixedAngle>FALSE</sml:FixedAngle>
+	</sml:Options>
+	
+			<sml:TextStyle>
+				<sml:FontName>汉仪中宋简</sml:FontName>
+				<sml:Align>0</sml:Align>
+				<sml:Bold>FALSE</sml:Bold>
+				<sml:Italic>FALSE</sml:Italic>
+				<sml:ItalicAngle>0.00</sml:ItalicAngle>
+				<sml:Stroke>FALSE</sml:Stroke>
+				<sml:Underline>FALSE</sml:Underline>
+				<sml:Shadow>FALSE</sml:Shadow>
+				<sml:Outline>TRUE</sml:Outline>
+				<sml:FontHeight>50.000000</sml:FontHeight>
+				<sml:FontWidth>0.000000</sml:FontWidth>
+				<sml:FontWeight>0</sml:FontWeight>
+				<sml:FixedSize>TRUE</sml:FixedSize>
+				<sml:FixedTextSize>0</sml:FixedTextSize>
+				<sml:Rotation>0.00</sml:Rotation>
+				<sml:ForeColor>RGB(231,0,0)</sml:ForeColor>
+				<sml:BackColor>RGB(255,255,255)</sml:BackColor>
+				<sml:Transparent>TRUE</sml:Transparent>
+			</sml:TextStyle>
+	<sml:LeaderLineStyle>
+		<sml:SymbolStyle>0</sml:SymbolStyle>
+		<sml:SymbolSize>60</sml:SymbolSize>
+		<sml:SymbolAngle>0</sml:SymbolAngle>
+		<sml:LineStyle>42</sml:LineStyle>
+		<sml:LineWidth>1</sml:LineWidth>
+		<sml:LineColor>RGB(0,0,0)</sml:LineColor>
+		<sml:FillStyle>0</sml:FillStyle>
+		<sml:FillForeColor>RGB(196,196,196)</sml:FillForeColor>
+		<sml:FillBackColor>RGB(255,255,255)</sml:FillBackColor>
+		<sml:BackTransparent>FALSE</sml:BackTransparent>
+		<sml:FillOpaqueRate>100</sml:FillOpaqueRate>
+		<sml:FillGradientType>0</sml:FillGradientType>
+		<sml:FillGradientAngle>0.000000</sml:FillGradientAngle>
+		<sml:FillCenterOffsetX>0</sml:FillCenterOffsetX>
+		<sml:FillCenterOffsetY>0</sml:FillCenterOffsetY>
+		</sml:LeaderLineStyle>
+		
+	<sml:OffsetX>0</sml:OffsetX>
+	<sml:OffsetY>0</sml:OffsetY>
+</sml:ThemeLabel></sml:Themes>
+</sml:Layer>
+<sml:Layer>
+<sml:Caption>National_T@world</sml:Caption>
+<sml:DataSourceAlias>world</sml:DataSourceAlias>
+<sml:DatasetName>National_T</sml:DatasetName>
+<sml:GeoStyle>
+<sml:SymbolStyle>0</sml:SymbolStyle>
+<sml:SymbolSize>60</sml:SymbolSize>
+<sml:SymbolAngle>0</sml:SymbolAngle>
+<sml:LineStyle>0</sml:LineStyle>
+<sml:LineWidth>1</sml:LineWidth>
+<sml:LineColor>RGB(0,128,0)</sml:LineColor>
+<sml:FillStyle>0</sml:FillStyle>
+<sml:FillForeColor>RGB(208,255,240)</sml:FillForeColor>
+<sml:FillBackColor>RGB(255,255,255)</sml:FillBackColor>
+<sml:BackTransparent>FALSE</sml:BackTransparent>
+<sml:FillOpaqueRate>100</sml:FillOpaqueRate>
+<sml:FillGradientType>0</sml:FillGradientType>
+<sml:FillGradientAngle>0.000000</sml:FillGradientAngle>
+<sml:FillCenterOffsetX>0</sml:FillCenterOffsetX>
+<sml:FillCenterOffsetY>0</sml:FillCenterOffsetY>
+</sml:GeoStyle>
+<sml:RasterOpaqueRate>100</sml:RasterOpaqueRate>
+<sml:RasterBrightness>0</sml:RasterBrightness>
+<sml:RasterContrast>0</sml:RasterContrast>
+<sml:QueryDef>
+<sml:QueryType>0</sml:QueryType>
+<sml:Options>3</sml:Options>
+<sml:Mode>0</sml:Mode>
+<sml:CursorType>2</sml:CursorType>
+<sml:CursorLocation>2</sml:CursorLocation>
+</sml:QueryDef>
+<sml:Options>
+<sml:Visible>TRUE</sml:Visible>
+<sml:Selectable>FALSE</sml:Selectable>
+<sml:Editable>FALSE</sml:Editable>
+<sml:EditableLock>TRUE</sml:EditableLock>
+<sml:Snapable>FALSE</sml:Snapable>
+<sml:SymbolScalable>FALSE</sml:SymbolScalable>
+<sml:AllowTextOverlap>FALSE</sml:AllowTextOverlap>
+<sml:ThemeVisibleOptions/>
+</sml:Options>
+<sml:VisibleObjectMinimum>4</sml:VisibleObjectMinimum>
+<sml:VisibleScaleMin>0.0000000000000000</sml:VisibleScaleMin>
+<sml:VisibleScaleMax>0.0082416514172764</sml:VisibleScaleMax>
+<sml:SymbolScaleDefinition>-1.0000000000000000</sml:SymbolScaleDefinition>
+<sml:Themes/>
+</sml:Layer>
+<sml:Layer>
+<sml:Caption>Ocean_Lable@world</sml:Caption>
+<sml:DataSourceAlias>world</sml:DataSourceAlias>
+<sml:DatasetName>Ocean_Lable</sml:DatasetName>
+<sml:GeoStyle>
+<sml:SymbolStyle>0</sml:SymbolStyle>
+<sml:SymbolSize>24</sml:SymbolSize>
+<sml:SymbolAngle>0</sml:SymbolAngle>
+<sml:LineStyle>0</sml:LineStyle>
+<sml:LineWidth>1</sml:LineWidth>
+<sml:LineColor>RGB(0,142,210)</sml:LineColor>
+<sml:FillStyle>0</sml:FillStyle>
+<sml:FillForeColor>RGB(196,196,196)</sml:FillForeColor>
+<sml:FillBackColor>RGB(255,255,255)</sml:FillBackColor>
+<sml:BackTransparent>FALSE</sml:BackTransparent>
+<sml:FillOpaqueRate>100</sml:FillOpaqueRate>
+<sml:FillGradientType>0</sml:FillGradientType>
+<sml:FillGradientAngle>0.000000</sml:FillGradientAngle>
+<sml:FillCenterOffsetX>0</sml:FillCenterOffsetX>
+<sml:FillCenterOffsetY>0</sml:FillCenterOffsetY>
+</sml:GeoStyle>
+<sml:RasterOpaqueRate>100</sml:RasterOpaqueRate>
+<sml:RasterBrightness>0</sml:RasterBrightness>
+<sml:RasterContrast>0</sml:RasterContrast>
+<sml:QueryDef>
+<sml:QueryType>0</sml:QueryType>
+<sml:Options>3</sml:Options>
+<sml:Mode>0</sml:Mode>
+<sml:CursorType>2</sml:CursorType>
+<sml:CursorLocation>2</sml:CursorLocation>
+</sml:QueryDef>
+<sml:Options>
+<sml:Visible>TRUE</sml:Visible>
+<sml:Selectable>FALSE</sml:Selectable>
+<sml:Editable>FALSE</sml:Editable>
+<sml:EditableLock>TRUE</sml:EditableLock>
+<sml:Snapable>FALSE</sml:Snapable>
+<sml:SymbolScalable>FALSE</sml:SymbolScalable>
+<sml:AllowTextOverlap>FALSE</sml:AllowTextOverlap>
+<sml:ThemeVisibleOptions/>
+</sml:Options>
+<sml:VisibleObjectMinimum>4</sml:VisibleObjectMinimum>
+<sml:VisibleScaleMin>0.0000000000000000</sml:VisibleScaleMin>
+<sml:VisibleScaleMax>0.0000000000000000</sml:VisibleScaleMax>
+<sml:SymbolScaleDefinition>-1.0000000000000000</sml:SymbolScaleDefinition>
+<sml:Themes/>
+</sml:Layer>
+<sml:Layer>
+<sml:Caption>Country_Lable@world</sml:Caption>
+<sml:DataSourceAlias>world</sml:DataSourceAlias>
+<sml:DatasetName>Country_Lable</sml:DatasetName>
+<sml:GeoStyle>
+<sml:SymbolStyle>0</sml:SymbolStyle>
+<sml:SymbolSize>24</sml:SymbolSize>
+<sml:SymbolAngle>0</sml:SymbolAngle>
+<sml:LineStyle>0</sml:LineStyle>
+<sml:LineWidth>1</sml:LineWidth>
+<sml:LineColor>RGB(74,77,74)</sml:LineColor>
+<sml:FillStyle>0</sml:FillStyle>
+<sml:FillForeColor>RGB(196,196,196)</sml:FillForeColor>
+<sml:FillBackColor>RGB(255,255,255)</sml:FillBackColor>
+<sml:BackTransparent>FALSE</sml:BackTransparent>
+<sml:FillOpaqueRate>100</sml:FillOpaqueRate>
+<sml:FillGradientType>0</sml:FillGradientType>
+<sml:FillGradientAngle>0.000000</sml:FillGradientAngle>
+<sml:FillCenterOffsetX>0</sml:FillCenterOffsetX>
+<sml:FillCenterOffsetY>0</sml:FillCenterOffsetY>
+</sml:GeoStyle>
+<sml:RasterOpaqueRate>100</sml:RasterOpaqueRate>
+<sml:RasterBrightness>0</sml:RasterBrightness>
+<sml:RasterContrast>0</sml:RasterContrast>
+<sml:QueryDef>
+<sml:QueryType>0</sml:QueryType>
+<sml:Options>3</sml:Options>
+<sml:Mode>0</sml:Mode>
+<sml:CursorType>2</sml:CursorType>
+<sml:CursorLocation>2</sml:CursorLocation>
+</sml:QueryDef>
+<sml:Options>
+<sml:Visible>TRUE</sml:Visible>
+<sml:Selectable>FALSE</sml:Selectable>
+<sml:Editable>FALSE</sml:Editable>
+<sml:EditableLock>TRUE</sml:EditableLock>
+<sml:Snapable>FALSE</sml:Snapable>
+<sml:SymbolScalable>FALSE</sml:SymbolScalable>
+<sml:AllowTextOverlap>FALSE</sml:AllowTextOverlap>
+<sml:ThemeVisibleOptions/>
+</sml:Options>
+<sml:VisibleObjectMinimum>4</sml:VisibleObjectMinimum>
+<sml:VisibleScaleMin>0.0000000000000000</sml:VisibleScaleMin>
+<sml:VisibleScaleMax>0.0000000000000000</sml:VisibleScaleMax>
+<sml:SymbolScaleDefinition>-1.0000000000000000</sml:SymbolScaleDefinition>
+<sml:Themes/>
+</sml:Layer>
+<sml:Layer>
+<sml:Caption>Continent_Lable@world</sml:Caption>
+<sml:DataSourceAlias>world</sml:DataSourceAlias>
+<sml:DatasetName>Continent_Lable</sml:DatasetName>
+<sml:GeoStyle>
+<sml:SymbolStyle>0</sml:SymbolStyle>
+<sml:SymbolSize>24</sml:SymbolSize>
+<sml:SymbolAngle>0</sml:SymbolAngle>
+<sml:LineStyle>0</sml:LineStyle>
+<sml:LineWidth>1</sml:LineWidth>
+<sml:LineColor>RGB(255,0,128)</sml:LineColor>
+<sml:FillStyle>0</sml:FillStyle>
+<sml:FillForeColor>RGB(196,196,196)</sml:FillForeColor>
+<sml:FillBackColor>RGB(255,255,255)</sml:FillBackColor>
+<sml:BackTransparent>FALSE</sml:BackTransparent>
+<sml:FillOpaqueRate>100</sml:FillOpaqueRate>
+<sml:FillGradientType>0</sml:FillGradientType>
+<sml:FillGradientAngle>0.000000</sml:FillGradientAngle>
+<sml:FillCenterOffsetX>0</sml:FillCenterOffsetX>
+<sml:FillCenterOffsetY>0</sml:FillCenterOffsetY>
+</sml:GeoStyle>
+<sml:RasterOpaqueRate>100</sml:RasterOpaqueRate>
+<sml:RasterBrightness>0</sml:RasterBrightness>
+<sml:RasterContrast>0</sml:RasterContrast>
+<sml:QueryDef>
+<sml:QueryType>0</sml:QueryType>
+<sml:Options>3</sml:Options>
+<sml:Mode>0</sml:Mode>
+<sml:CursorType>2</sml:CursorType>
+<sml:CursorLocation>2</sml:CursorLocation>
+</sml:QueryDef>
+<sml:Options>
+<sml:Visible>TRUE</sml:Visible>
+<sml:Selectable>FALSE</sml:Selectable>
+<sml:Editable>FALSE</sml:Editable>
+<sml:EditableLock>TRUE</sml:EditableLock>
+<sml:Snapable>FALSE</sml:Snapable>
+<sml:SymbolScalable>FALSE</sml:SymbolScalable>
+<sml:AllowTextOverlap>FALSE</sml:AllowTextOverlap>
+<sml:ThemeVisibleOptions/>
+</sml:Options>
+<sml:VisibleObjectMinimum>4</sml:VisibleObjectMinimum>
+<sml:VisibleScaleMin>0.0000000000000000</sml:VisibleScaleMin>
+<sml:VisibleScaleMax>0.0000000000000000</sml:VisibleScaleMax>
+<sml:SymbolScaleDefinition>-1.0000000000000000</sml:SymbolScaleDefinition>
+<sml:Themes/>
+</sml:Layer>
+<sml:Layer>
+<sml:Caption>World@world</sml:Caption>
+<sml:DataSourceAlias>world</sml:DataSourceAlias>
+<sml:DatasetName>World</sml:DatasetName>
+<sml:GeoStyle>
+<sml:SymbolStyle>0</sml:SymbolStyle>
+<sml:SymbolSize>0</sml:SymbolSize>
+<sml:SymbolAngle>0</sml:SymbolAngle>
+<sml:LineStyle>0</sml:LineStyle>
+<sml:LineWidth>1</sml:LineWidth>
+<sml:LineColor>RGB(48,48,48)</sml:LineColor>
+<sml:FillStyle>0</sml:FillStyle>
+<sml:FillForeColor>RGB(189,235,255)</sml:FillForeColor>
+<sml:FillBackColor>RGB(255,255,255)</sml:FillBackColor>
+<sml:BackTransparent>FALSE</sml:BackTransparent>
+<sml:FillOpaqueRate>100</sml:FillOpaqueRate>
+<sml:FillGradientType>0</sml:FillGradientType>
+<sml:FillGradientAngle>0.000000</sml:FillGradientAngle>
+<sml:FillCenterOffsetX>0</sml:FillCenterOffsetX>
+<sml:FillCenterOffsetY>0</sml:FillCenterOffsetY>
+</sml:GeoStyle>
+<sml:RasterOpaqueRate>100</sml:RasterOpaqueRate>
+<sml:RasterBrightness>0</sml:RasterBrightness>
+<sml:RasterContrast>0</sml:RasterContrast>
+<sml:QueryDef>
+<sml:QueryType>0</sml:QueryType>
+<sml:Options>3</sml:Options>
+<sml:Mode>0</sml:Mode>
+<sml:CursorType>2</sml:CursorType>
+<sml:CursorLocation>2</sml:CursorLocation>
+</sml:QueryDef>
+<sml:Options>
+<sml:Visible>TRUE</sml:Visible>
+<sml:Selectable>FALSE</sml:Selectable>
+<sml:Editable>FALSE</sml:Editable>
+<sml:EditableLock>TRUE</sml:EditableLock>
+<sml:Snapable>FALSE</sml:Snapable>
+<sml:SymbolScalable>FALSE</sml:SymbolScalable>
+<sml:AllowTextOverlap>FALSE</sml:AllowTextOverlap>
+<sml:ThemeVisibleOptions>
+<sml:ThemeUnique>TRUE</sml:ThemeUnique>
+</sml:ThemeVisibleOptions>
+</sml:Options>
+<sml:VisibleObjectMinimum>4</sml:VisibleObjectMinimum>
+<sml:VisibleScaleMin>0.0000000000000000</sml:VisibleScaleMin>
+<sml:VisibleScaleMax>0.0000000000000000</sml:VisibleScaleMax>
+<sml:SymbolScaleDefinition>-1.0000000000000000</sml:SymbolScaleDefinition>
+<sml:Themes>
+<sml:ThemeUnique>
+	<sml:FieldExpression>COLOR_MAP</sml:FieldExpression>
+	<sml:FieldType>10</sml:FieldType>
+	<sml:Caption>单值专题图</sml:Caption>
+	<sml:VisibleScaleMin>0</sml:VisibleScaleMin>
+	<sml:VisibleScaleMax>0</sml:VisibleScaleMax>
+	<sml:DefaultGeoStyle>
+		<sml:SymbolStyle>0</sml:SymbolStyle>
+		<sml:SymbolSize>60</sml:SymbolSize>
+		<sml:SymbolAngle>0</sml:SymbolAngle>
+		<sml:LineStyle>0</sml:LineStyle>
+		<sml:LineWidth>1</sml:LineWidth>
+		<sml:LineColor>RGB(0,0,0)</sml:LineColor>
+		<sml:FillStyle>0</sml:FillStyle>
+		<sml:FillForeColor>RGB(196,196,196)</sml:FillForeColor>
+		<sml:FillBackColor>RGB(255,255,255)</sml:FillBackColor>
+		<sml:BackTransparent>FALSE</sml:BackTransparent>
+		<sml:FillOpaqueRate>100</sml:FillOpaqueRate>
+		<sml:FillGradientType>0</sml:FillGradientType>
+		<sml:FillGradientAngle>0.000000</sml:FillGradientAngle>
+		<sml:FillCenterOffsetX>0</sml:FillCenterOffsetX>
+		<sml:FillCenterOffsetY>0</sml:FillCenterOffsetY>
+		</sml:DefaultGeoStyle>
+		
+	<sml:UniqueItems>
+		<sml:UniqueItem>
+			<sml:Value>1</sml:Value>
+			<sml:Caption>1</sml:Caption>
+			<sml:StyleEnable>TRUE</sml:StyleEnable>
+			<sml:GeoStyle>
+			<sml:SymbolStyle>0</sml:SymbolStyle>
+			<sml:SymbolSize>60</sml:SymbolSize>
+			<sml:SymbolAngle>0</sml:SymbolAngle>
+			<sml:LineStyle>5</sml:LineStyle>
+			<sml:LineWidth>1</sml:LineWidth>
+			<sml:LineColor>RGB(107,218,127)</sml:LineColor>
+			<sml:FillStyle>0</sml:FillStyle>
+			<sml:FillForeColor>RGB(193,227,201)</sml:FillForeColor>
+			<sml:FillBackColor>RGB(255,255,255)</sml:FillBackColor>
+			<sml:BackTransparent>FALSE</sml:BackTransparent>
+			<sml:FillOpaqueRate>100</sml:FillOpaqueRate>
+			<sml:FillGradientType>0</sml:FillGradientType>
+			<sml:FillGradientAngle>0.000000</sml:FillGradientAngle>
+			<sml:FillCenterOffsetX>0</sml:FillCenterOffsetX>
+			<sml:FillCenterOffsetY>0</sml:FillCenterOffsetY>
+			</sml:GeoStyle>
+			
+		</sml:UniqueItem>
+		<sml:UniqueItem>
+			<sml:Value>2</sml:Value>
+			<sml:Caption>2</sml:Caption>
+			<sml:StyleEnable>TRUE</sml:StyleEnable>
+			<sml:GeoStyle>
+			<sml:SymbolStyle>0</sml:SymbolStyle>
+			<sml:SymbolSize>60</sml:SymbolSize>
+			<sml:SymbolAngle>0</sml:SymbolAngle>
+			<sml:LineStyle>5</sml:LineStyle>
+			<sml:LineWidth>1</sml:LineWidth>
+			<sml:LineColor>RGB(128,144,237)</sml:LineColor>
+			<sml:FillStyle>0</sml:FillStyle>
+			<sml:FillForeColor>RGB(196,193,225)</sml:FillForeColor>
+			<sml:FillBackColor>RGB(255,255,255)</sml:FillBackColor>
+			<sml:BackTransparent>FALSE</sml:BackTransparent>
+			<sml:FillOpaqueRate>100</sml:FillOpaqueRate>
+			<sml:FillGradientType>0</sml:FillGradientType>
+			<sml:FillGradientAngle>0.000000</sml:FillGradientAngle>
+			<sml:FillCenterOffsetX>0</sml:FillCenterOffsetX>
+			<sml:FillCenterOffsetY>0</sml:FillCenterOffsetY>
+			</sml:GeoStyle>
+			
+		</sml:UniqueItem>
+		<sml:UniqueItem>
+			<sml:Value>3</sml:Value>
+			<sml:Caption>3</sml:Caption>
+			<sml:StyleEnable>TRUE</sml:StyleEnable>
+			<sml:GeoStyle>
+			<sml:SymbolStyle>0</sml:SymbolStyle>
+			<sml:SymbolSize>60</sml:SymbolSize>
+			<sml:SymbolAngle>0</sml:SymbolAngle>
+			<sml:LineStyle>5</sml:LineStyle>
+			<sml:LineWidth>1</sml:LineWidth>
+			<sml:LineColor>RGB(202,229,135)</sml:LineColor>
+			<sml:FillStyle>0</sml:FillStyle>
+			<sml:FillForeColor>RGB(255,250,179)</sml:FillForeColor>
+			<sml:FillBackColor>RGB(255,255,255)</sml:FillBackColor>
+			<sml:BackTransparent>FALSE</sml:BackTransparent>
+			<sml:FillOpaqueRate>100</sml:FillOpaqueRate>
+			<sml:FillGradientType>0</sml:FillGradientType>
+			<sml:FillGradientAngle>0.000000</sml:FillGradientAngle>
+			<sml:FillCenterOffsetX>0</sml:FillCenterOffsetX>
+			<sml:FillCenterOffsetY>0</sml:FillCenterOffsetY>
+			</sml:GeoStyle>
+			
+		</sml:UniqueItem>
+		<sml:UniqueItem>
+			<sml:Value>4</sml:Value>
+			<sml:Caption>4</sml:Caption>
+			<sml:StyleEnable>TRUE</sml:StyleEnable>
+			<sml:GeoStyle>
+			<sml:SymbolStyle>0</sml:SymbolStyle>
+			<sml:SymbolSize>60</sml:SymbolSize>
+			<sml:SymbolAngle>0</sml:SymbolAngle>
+			<sml:LineStyle>5</sml:LineStyle>
+			<sml:LineWidth>1</sml:LineWidth>
+			<sml:LineColor>RGB(152,84,136)</sml:LineColor>
+			<sml:FillStyle>0</sml:FillStyle>
+			<sml:FillForeColor>RGB(252,204,182)</sml:FillForeColor>
+			<sml:FillBackColor>RGB(255,255,255)</sml:FillBackColor>
+			<sml:BackTransparent>FALSE</sml:BackTransparent>
+			<sml:FillOpaqueRate>100</sml:FillOpaqueRate>
+			<sml:FillGradientType>0</sml:FillGradientType>
+			<sml:FillGradientAngle>0.000000</sml:FillGradientAngle>
+			<sml:FillCenterOffsetX>0</sml:FillCenterOffsetX>
+			<sml:FillCenterOffsetY>0</sml:FillCenterOffsetY>
+			</sml:GeoStyle>
+			
+		</sml:UniqueItem>
+	</sml:UniqueItems>
+</sml:ThemeUnique></sml:Themes>
+</sml:Layer>
+<sml:Layer>
+<sml:Caption>Ocean@world</sml:Caption>
+<sml:DataSourceAlias>world</sml:DataSourceAlias>
+<sml:DatasetName>Ocean</sml:DatasetName>
+<sml:GeoStyle>
+<sml:SymbolStyle>0</sml:SymbolStyle>
+<sml:SymbolSize>60</sml:SymbolSize>
+<sml:SymbolAngle>0</sml:SymbolAngle>
+<sml:LineStyle>5</sml:LineStyle>
+<sml:LineWidth>1</sml:LineWidth>
+<sml:LineColor>RGB(48,48,48)</sml:LineColor>
+<sml:FillStyle>0</sml:FillStyle>
+<sml:FillForeColor>RGB(60,216,255)</sml:FillForeColor>
+<sml:FillBackColor>RGB(255,255,255)</sml:FillBackColor>
+<sml:BackTransparent>FALSE</sml:BackTransparent>
+<sml:FillOpaqueRate>100</sml:FillOpaqueRate>
+<sml:FillGradientType>0</sml:FillGradientType>
+<sml:FillGradientAngle>0.000000</sml:FillGradientAngle>
+<sml:FillCenterOffsetX>0</sml:FillCenterOffsetX>
+<sml:FillCenterOffsetY>0</sml:FillCenterOffsetY>
+</sml:GeoStyle>
+<sml:RasterOpaqueRate>100</sml:RasterOpaqueRate>
+<sml:RasterBrightness>0</sml:RasterBrightness>
+<sml:RasterContrast>0</sml:RasterContrast>
+<sml:QueryDef>
+<sml:QueryType>0</sml:QueryType>
+<sml:Options>3</sml:Options>
+<sml:Mode>0</sml:Mode>
+<sml:CursorType>2</sml:CursorType>
+<sml:CursorLocation>2</sml:CursorLocation>
+</sml:QueryDef>
+<sml:Options>
+<sml:Visible>TRUE</sml:Visible>
+<sml:Selectable>FALSE</sml:Selectable>
+<sml:Editable>FALSE</sml:Editable>
+<sml:EditableLock>TRUE</sml:EditableLock>
+<sml:Snapable>FALSE</sml:Snapable>
+<sml:SymbolScalable>FALSE</sml:SymbolScalable>
+<sml:AllowTextOverlap>FALSE</sml:AllowTextOverlap>
+<sml:ThemeVisibleOptions/>
+</sml:Options>
+<sml:VisibleObjectMinimum>4</sml:VisibleObjectMinimum>
+<sml:VisibleScaleMin>0.0000000000000000</sml:VisibleScaleMin>
+<sml:VisibleScaleMax>0.0000000000000000</sml:VisibleScaleMax>
+<sml:SymbolScaleDefinition>-1.0000000000000000</sml:SymbolScaleDefinition>
+<sml:Themes/>
+</sml:Layer>
+</sml:Layers>
+</sml:Map>
+</sml:Maps>
+<sml:Resources>
+<sml:SymbolLibrary>
+<sml:src>.\world.sym</sml:src>
+</sml:SymbolLibrary>
+<sml:LineStyleLibrary>
+<sml:src>.\world.lsl</sml:src>
+</sml:LineStyleLibrary>
+<sml:BrushStyleLibrary>
+<sml:src>.\world.bru</sml:src>
+</sml:BrushStyleLibrary>
+</sml:Resources>
+<sml:Scenes/>
+</SuperMapWorkspace>

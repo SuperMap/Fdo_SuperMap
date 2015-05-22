@@ -1,0 +1,51 @@
+//
+// Install.RC2 - Microsoft Visual C++ 不会直接编辑的资源
+//
+
+#ifdef APSTUDIO_INVOKED
+#error 此文件不能由 Microsoft Visual C++ 编辑
+#endif //APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 在此处添加手动编辑的资源...
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+VS_VERSION_INFO VERSIONINFO
+ 	FILEVERSION 	VERSION_MJR,VERSION_MIN,VERSION_UPDATE,VERSION_BUILD
+ 	PRODUCTVERSION 	VERSION_MJR,VERSION_MIN,VERSION_UPDATE,VERSION_BUILD
+	FILEFLAGSMASK	VS_FFI_FILEFLAGSMASK
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "北京超图地理信息技术有限公司\0"
+            VALUE "FileDescription", "SuperMap Install Application\0"
+            VALUE "FileVersion", SZ_VERSION_NAME
+            VALUE "InternalName", "Install\0"
+            VALUE "LegalCopyright", "Copyright (C) 1999-2007 SuperMap GIS Technologies, Inc.\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Install.exe\0"
+            VALUE "ProductName", "SuperMap Install\0"
+            VALUE "ProductVersion", SZ_VERSION_NAME
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+/////////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="gb2312"?>
+<ugc version="20071213" Description="UGC setting file Created by SuperMap UGC 2.0">
+
+<!-- version-->
+<Version type="value">2.0</Version>
+
+<!--is show progress, value include: false,true-->
+<ShowProgress>false</ShowProgress>
+
+<!-- datasource cache file location, using at data engine; default is empty, meens using the system's temporary directory -->
+<CacheFileLocation></CacheFileLocation> 
+
+<!-- resource-->
+<resource type="external">resource.xml</resource>
+
+<!-- project config file-->
+<PrjConfig type="external">PrjConfig.xml</PrjConfig>
+
+<!-- EPS font mapping file-->
+<EPSFont type="external">EPSFont.xml</EPSFont>
+
+<!-- Log Setting-->
+<LogSetting type="object">
+
+	<!-- whether start the log file automatically, when the programming start-->
+	<LogEnabled>false</LogEnabled>
+
+	<!-- Log file Location, default is empty, meens using the current directory-->
+	<LogFileLocation></LogFileLocation>
+
+	<!-- Log file prefix, only used at the LogTimeInterval is not none-->
+	<LogFilePrefix>UGC</LogFilePrefix>
+
+	<!-- whether append to the existing log file --> 
+    <IsAppend>false</IsAppend>
+
+	<!-- whether filter the repeat log --> 
+    <IsFilter>false</IsFilter>
+	
+	<!-- Log Time Interval: Month,Week,Day, Hour, None-->
+	<LogTimeInterval>Day</LogTimeInterval>
+
+
+	<!-- Set the maximum size for an individual log file. When a log file reaches this size, the server will create a new one.Unit: Byte, -1 mean no limit --> 
+	<MaxFileSize> 1048576 </MaxFileSize>
+
+	<!-- When a log file reaches MaxFileSize, Program will deal with the file by ExceedSizeMode.  ExceedSizeMode: Rolling, ReOpen, NewFile -->
+	<ExceedSizeMode>Rolling</ExceedSizeMode>
+
+	
+	<!-- Log Save Mode, include: Text, XML, Memory --> 
+	<StorageType>Text</StorageType> 
+
+	<!-- whether Log info is saved into the physical media, such as logfile or database; when false, the log info only storage at memory --> 
+	<LogPhysicalSave>true</LogPhysicalSave>
+
+	<!-- Log Level from debug, info, warning, error, fatal-->
+	<LogLevel>debug</LogLevel>
+
+	<!-- Log format, the expert user can modify to using special log format, %XXX mean the replace content-->
+	<LogFormat>%DATETIME [%TIMESPAN] (%LEVEL) |  %MSG \nThreadID:%THREADID \nCodeFile:%CODEFILE \nCodeLine:%CODELINE</LogFormat>
+
+	<!-- Log data time format, the default is: Year-Moon-Day Hour:Minute:Second-->
+	<DateTimeFormat>%Y-%m-%d %H:%M:%S</DateTimeFormat>
+
+</LogSetting>
+
+</ugc>

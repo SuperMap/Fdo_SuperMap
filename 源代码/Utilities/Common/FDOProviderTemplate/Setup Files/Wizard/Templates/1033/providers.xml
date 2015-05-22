@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FeatureProviderRegistry>
+  <FeatureProvider>
+    <Name>OSGeo.[!output PREFIX].3.3</Name>
+    <DisplayName>OSGeo FDO Provider for [!output PREFIX]</DisplayName>
+    <Description>OSGeo FDO Provider for [!output PREFIX]</Description>
+    <IsManaged>False</IsManaged>
+    <Version>3.3.0.0</Version>
+    <FeatureDataObjectsVersion>3.3.0.0</FeatureDataObjectsVersion>
+    <LibraryPath>.\[!output PREFIX]Provider.dll</LibraryPath>
+  </FeatureProvider>
+</FeatureProviderRegistry>
